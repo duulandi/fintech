@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: sans-serif;
+}
+
+
+a {
+    font-size: 8.rem; 
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.button_login, .button-login {
+    background-color: #00BFFF;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid #00BFFF;
+    padding: 5px;
+    width: 315px;
+    text-align: center;
+}
+
+.login-container {
+    background-color: rgba(220, 220, 220, 1);
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: rgba(220, 220, 220, 1);
+    border-radius: 20px;
+    text-align: center;
+    color: dodgerblue;
+    
+
+}
+
+.user-email, .user-name, .password, .data-nascimento,.user-password, .user_email {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.logo-login {
+    margin: auto;
+    padding-left: 20px;
+
+}
+
+.cadastro-container {
+    background-color: rgba(220, 220, 220, 1);
+    font-size: medium;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: rgba(220, 220, 220, 1);
+    border-radius: 20px;
+    text-align: center;
+    color: dodgerblue;
+}
